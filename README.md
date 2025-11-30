@@ -259,12 +259,12 @@ The improved train-validation gap (20.0% → 18.6%) suggests curriculum-based to
 
 ### When CTD Helps Most
 
-✅ **Resource-constrained training** (limited GPU memory, edge devices)
-✅ **Long training runs** (amortized overhead worth it)
-✅ **Small image datasets** (CIFAR-100 scale or smaller)
+**Resource-constrained training** (limited GPU memory, edge devices)
+**Long training runs** (amortized overhead worth it)
+**Small image datasets** (CIFAR-100 scale or smaller)
 
-❌ **Not ideal for** inference (no speedup—all tokens used)
-❌ **Not ideal for** very large models (overhead > benefit)
+**Not ideal for** inference (no speedup—all tokens used)
+**Not ideal for** very large models (overhead > benefit)
 
 ---
 
@@ -367,15 +367,9 @@ If you use this work, please cite:
 @misc{chaudhary2024ctd,
   title={Curriculum Token Drop: Training-Efficient Vision Transformers},
   author={Chaudhary, Aumkesh},
-  year={2024},
+  year={2025},
   howpublished={\url{https://github.com/aumkeshchaudhary/CTD-ViT}}
 }
 ```
 
 ---
-
-## Contact
-
-For questions or suggestions, open an issue on GitHub or contact [your-email@example.com]
-
-**Last Updated:** November 2024
