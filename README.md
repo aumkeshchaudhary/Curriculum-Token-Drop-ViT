@@ -321,42 +321,6 @@ The improved train-validation gap (20.0% → 18.6%) suggests curriculum-based to
 
 [5] Lin, T.-Y., et al. "Focal Loss for Dense Object Detection." ICCV, 2017.
 
-[6] He, K., et al. "Deep Residual Learning for Image Recognition." CVPR, 2016.
-
----
-
-## How to Use
-
-### Installation
-
-```bash
-git clone https://github.com/aumkeshchaudhary/CTD-ViT.git
-cd CTD-ViT
-pip install -r requirements.txt
-```
-
-### Training Baseline
-
-```bash
-python experiments/baseline.py
-```
-
-### Training with CTD
-
-```bash
-python experiments/ctd_train.py --gamma 1.5
-```
-
-### Ablation Studies
-
-```bash
-# Test different γ values
-python experiments/ablations/gamma_sensitivity.py
-
-# Compare saliency metrics
-python experiments/ablations/saliency_metrics.py
-```
-
 ---
 
 ## Citation
