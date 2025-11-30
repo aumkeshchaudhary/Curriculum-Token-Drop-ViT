@@ -328,7 +328,7 @@ The improved train-validation gap (20.0% → 18.6%) suggests curriculum-based to
 If you use this work, please cite:
 
 ```bibtex
-@misc{chaudhary2024ctd,
+@misc{chaudhary2025ctd,
   title={Curriculum Token Drop: Training-Efficient Vision Transformers},
   author={Chaudhary, Aumkesh},
   year={2025},
